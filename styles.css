@@ -14,10 +14,11 @@ body {
   }
   .planner-item span {
     color:red;
-}
+  }
   .planner-item span.completed {
       color:blue;
   }
+
   .planner-item {
     background-color: greenyellow;
     color:blue;
@@ -26,6 +27,7 @@ body {
     margin: 10px 0;
     position:relative;
   }
+  
   .planner-item:after {
       content:'[x]';
       position:absolute;
@@ -36,6 +38,7 @@ body {
     cursor:pointer;
     opacity:0.7;
   }
+
   .planner-item:last-of-type {
     margin-bottom:.5em;
   }
